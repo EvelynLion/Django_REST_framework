@@ -11,8 +11,8 @@ Execute SQL to insert some testing data into the DB.
 2. RESTful api:
 a. GET	/hotels/	return all hotels
 b. POST	/hotels/	add a new hotel item
-c. GET	/hotels/<pk>/	return a certain hotels
-d. PUT	/hotels/<pk>/	modify a certain hotels
+c. GET	/hotels/id/	return a certain hotels
+d. PUT	/hotels/id/	modify a certain hotels
 e. DELETE	/hotels/<pk>/	delete a certain hotels
 Finally return Response in JSON format
 ![image](https://github.com/QingSuMCDA/Django_REST_framework/blob/main/IMG/get_method.jpg)
